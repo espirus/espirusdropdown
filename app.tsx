@@ -39,7 +39,7 @@ autocomplete<ProductHit>({
             searchClient,
             queries: [
               {
-                indexName: "RED",
+                indexName: "images",
                 query,
                 params: {
                   clickAnalytics: true,
